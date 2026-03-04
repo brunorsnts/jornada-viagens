@@ -41,6 +41,7 @@ nav {
 
 .list-links li {
   margin: 16px 0;
+  list-style: none;
 }
 
 .list-links li a {
