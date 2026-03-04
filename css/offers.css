@@ -1,6 +1,5 @@
 .card {
   color: var(--text-secondary-color);
-  background: black;
   width: 312px;
   height: 288px;
   box-sizing: border-box;
@@ -44,6 +43,26 @@
   color: var(--text-secondary-color);
   font-weight: var(--title-weight);
   border-radius: 8px;
+}
+
+.card.japao {
+    background: url(../img/bg-card-japao.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card.san-andreas {
+    background: url(../img/bg-card-san-andreas.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card.paraiba {
+    background: url(../img/bg-card-paraiba.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card.manaus {
+    background: url(../img/bg-card-manaus.jpg) no-repeat;
+    background-size: cover;
 }
 
 @media screen and (min-width: 1024px) {
