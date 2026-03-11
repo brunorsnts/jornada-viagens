@@ -1,0 +1,6 @@
+.destination-items header {
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0;
+}
