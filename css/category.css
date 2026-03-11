@@ -66,6 +66,11 @@
     .categories-cards a.card {
         width: 430px;
     }
+
+    .pacotes-nacionais h3 {
+        width: 150px;
+        margin: 0 auto;
+    }
 }
 
 
