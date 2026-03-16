@@ -48,8 +48,9 @@
     justify-content: space-between;
   }
 
-  .payments .image-gallery {
+  .payments .content-container .image-gallery {
     width: 790px;
+    margin: 0;
   }
 
   .payments .text-content {
