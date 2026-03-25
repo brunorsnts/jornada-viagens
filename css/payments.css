@@ -27,11 +27,6 @@
   font-size: 28px;
 }
 
-.content-container .button {
-  width: 100%;
-  margin-top: 24px;
-}
-
 .payments .image-gallery .image.first-pacotes {
   background: url(../img/pacotes-de-viagens/gallery1-mobile.jpg) no-repeat;
   background-size: cover;
@@ -66,6 +61,18 @@
     background: url(../img/gallery3-tablet-desktop.jpg);
     background-size: cover;
   }
+
+  .payments .image-gallery .image.first-pacotes {
+    background-image: url(../img/pacotes-de-viagens/gallery1-tablet.jpg);
+  }
+
+  .payments .image-gallery .image.second-pacotes {
+    background-image: url(../img/pacotes-de-viagens/gallery2-tablet.jpg);
+  }
+
+  .payments .image-gallery .image.thirdy-pacotes.colspan-2 {
+    background-image: url(../img/pacotes-de-viagens/gallery3-tablet.jpg);
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -85,5 +92,17 @@
 
   .payments .text-content h3 {
     width: 285px;
+  }
+
+  .payments .image-gallery .image.first-pacotes {
+    background-position: bottom;
+  }
+
+  .payments .image-gallery .image.second-pacotes {
+    background-position: bottom;
+  }
+
+  .payments .image-gallery .image.thirdy-pacotes.colspan-2 {
+    background-position: bottom;
   }
 }
