@@ -26,16 +26,17 @@
 
 /* Página pacotes de viagens */
 .hero .pacotes-viagens {
-  background-image: url(../img/hero-pacote-japao.jpg);
+  background-image: url(../img/pacotes-de-viagens/hero-mobile.jpg);
+  height: 460px;
 }
 
 .hero .pacotes-viagens {
-  padding-top: 65px;
   margin: 0 auto;
 }
 
 .hero .pacotes-viagens .section-title {
   width: 312px;
+  padding-top: 65px;
 }
 
 .hero .pacotes-viagens .section-title h1 {
@@ -73,9 +74,25 @@
     background-image: url(../img/hero-rodape-mobile.jpg);
   }
 
+  .hero .pacotes-viagens {
+    background-image: url(../img/pacotes-de-viagens/hero-desktop.jpg);
+    background-position: bottom;
+    height: 620px;
+  }
+
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
+  }
+
+  .hero .pacotes-viagens .section-title {
+    width: 580px;
+    padding-top: 210px;
+  }
+
+  .hero .pacotes-viagens .section-title p {
+    font-size: 32px;
+    line-height: 150%;
   }
 }
 
