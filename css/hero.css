@@ -75,7 +75,7 @@
   }
 
   .hero .pacotes-viagens {
-    background-image: url(../img/pacotes-de-viagens/hero-desktop.jpg);
+    background-image: url(../img/pacotes-de-viagens/hero-tablet.jpg);
     background-position: bottom;
     height: 620px;
   }
@@ -86,7 +86,7 @@
   }
 
   .hero .pacotes-viagens .section-title {
-    width: 580px;
+    width: 600px;
     padding-top: 210px;
   }
 
@@ -113,6 +113,19 @@
   .hero-img.rodape {
     background: url(../img/hero-rodape-desktop.jpg) no-repeat;
     background-size: cover;
+  }
+
+  .hero .pacotes-viagens {
+    background-image: url(../img/pacotes-de-viagens/hero-desktop.jpg);
+  }
+
+  .hero .pacotes-viagens .section-title {
+    padding-top: 160px;
+    margin-left: 120px;
+  }
+
+  .hero .pacotes-viagens .section-title p {
+    width: 578px;
   }
 }
 
