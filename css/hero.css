@@ -1,5 +1,6 @@
 .hero .hero-index-img,
 .bottom-hero .hero-img,
+.bottom-hero .hero-img-pacotes-de-viagem,
 .hero .pacotes-viagens {
   height: 400px;
   width: 100%;
@@ -53,6 +54,10 @@
   line-height: 32px;
 }
 
+.bottom-hero .hero-img-pacotes-de-viagem {
+  background-image: url(../img/pacotes-de-viagens/rodape-hero-mobile.jpg);
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-index-img {
     height: 620px;
@@ -63,10 +68,10 @@
     background-image: url(../img/hero-rodape-mobile.jpg);
   }
 
+  /* página pacotes viagen */
+
   .hero .pacotes-viagens {
     background-image: url(../img/pacotes-de-viagens/hero-tablet.jpg);
-    background-position: bottom;
-    height: 620px;
   }
 
   .hero h2 {
@@ -82,6 +87,10 @@
   .hero .pacotes-viagens .section-title p {
     font-size: 32px;
     line-height: 150%;
+  }
+
+  .bottom-hero .hero-img-pacotes-de-viagem {
+    background-image: url(../img/pacotes-de-viagens/rodape-hero-tablet.png);
   }
 }
 
@@ -104,8 +113,11 @@
     background-size: cover;
   }
 
+  /* página pacotes viagen */
+
   .hero .pacotes-viagens {
     background-image: url(../img/pacotes-de-viagens/hero-desktop.jpg);
+    height: 620px;
   }
 
   .hero .pacotes-viagens .section-title {
@@ -115,6 +127,11 @@
 
   .hero .pacotes-viagens .section-title p {
     width: 578px;
+  }
+
+  .bottom-hero .hero-img-pacotes-de-viagem {
+    background-image: url(../img/pacotes-de-viagens/rodape-hero-desktop.jpg);
+    background-position: center;
   }
 }
 
