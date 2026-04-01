@@ -1,0 +1,75 @@
+.guide .section-title {
+  margin-bottom: 56px;
+}
+
+.guide .section-title h1 {
+  font-size: 32px;
+  color: var(--text-primary-color);
+}
+
+.guide-item {
+  margin-bottom: 32px;
+}
+
+.guide-item p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.guide-img {
+  margin-top: 24px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.guide-img.chegada {
+  background-image: url(../img/blog/guia-chegada-mobile.jpg);
+  height: 360px;
+}
+
+.guide-img.acomodacao {
+  background-image: url(../img/blog/guia-acomodacao-mobile.jpg);
+  height: 300px;
+}
+
+.guide-item .text-detail {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .guide-item.chegada {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .guide-item.chegada p {
+    width: 312px;
+  }
+
+  .guide-img {
+    margin: 0;
+  }
+
+  .guide-img.acomodacao {
+    height: 336px;
+    background-image: url(../img/blog/guia-acomodacao-tablet.jpg);
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .guide-img.chegada {
+    background-image: url(../img/blog/guia-chegada-desktop.jpg);
+    background-position: bottom;
+  }
+
+  .guide-img.acomodacao {
+    background-image: url(../img/blog/guia-acomodacao-desktop.jpg);
+  }
+
+  .guide-item.chegada p {
+    width: 588px;
+  }
+}

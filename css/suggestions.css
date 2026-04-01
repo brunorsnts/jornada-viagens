@@ -1,0 +1,86 @@
+.suggestion-item {
+  margin-bottom: 40px;
+}
+
+.suggestions .suggestions-container .suggestion-item .img {
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.suggestions .suggestions-container .suggestion-item .img.osaka {
+  background-image: url(../img/osaka-mobile.jpg);
+}
+
+.suggestions .suggestions-container .suggestion-item .img.hiroshima {
+  background-image: url(../img/blog/hiroshima-mobile-desktop.jpg);
+}
+
+.suggestions .suggestions-container .suggestion-item .img.kyoto {
+  background-image: url(../img/blog/kyoto-mobile-desktop.jpg);
+}
+
+.suggestions .suggestions-container .suggestion-item h3 {
+  font-size: 32px;
+  margin: 16px 0 8px;
+}
+
+.suggestions .suggestions-container .suggestion-item p {
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.suggestions .suggestions-container .suggestion-item .button {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .suggestions .suggestions-container .suggestion-item .img.osaka {
+    background-image: url(../img/blog/osaka-tablet.jpg);
+  }
+
+  .suggestions .suggestions-container .suggestion-item .img.hiroshima {
+    background-image: url(../img/blog/hiroshima-tablet.jpg);
+  }
+
+  .suggestions .suggestions-container .suggestion-item .img.kyoto {
+    background-image: url(../img/blog/kyoto-tablet.jpg);
+  }
+
+  .suggestions .suggestions-container .suggestion-item .button {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .suggestions .suggestions-container .suggestion-item .img.osaka {
+    background-image: url(../img/osaka-mobile.jpg);
+  }
+
+  .suggestions .suggestions-container .suggestion-item .img.hiroshima {
+    background-image: url(../img/blog/hiroshima-mobile-desktop.jpg);
+  }
+
+  .suggestions .suggestions-container .suggestion-item .img.kyoto {
+    background-image: url(../img/blog/kyoto-mobile-desktop.jpg);
+  }
+
+  .suggestions-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .suggestions .suggestion-item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .suggestions .suggestions-container .suggestion-item .button {
+    width: 100%;
+    margin-top: auto;
+  }
+}
