@@ -30,6 +30,11 @@
   background-image: url(../img/pacotes-de-viagens/rodape-hero-mobile.jpg);
 }
 
+/* Imagem do Rodapé de contato */
+.bottom-hero .bg-contato {
+  background-image: url(../img/contato/hero-rodape-mobile.jpg);
+}
+
 .hero h2 {
   padding: 88px 24px;
   margin: 0px;
@@ -52,7 +57,7 @@
   padding-top: 65px;
 }
 
-.hero .hero-page.bg-blog .section-title {
+.hero .hero-page .section-title {
   width: 312px;
   padding-top: 81px;
 }
@@ -80,6 +85,10 @@
   background-image: url(../img/blog/hero-mobile.jpg);
 }
 
+.hero .bg-contato {
+  background-image: url(../img/contato/hero-mobile.jpg);
+}
+
 /* =========================================
    MEDIA QUERIES
 ========================================= */
@@ -96,6 +105,10 @@
 
   .bottom-hero .bg-pacotes {
     background-image: url(../img/pacotes-de-viagens/rodape-hero-tablet.png);
+  }
+
+  .bottom-hero .bg-contato {
+    background-image: url(../img/contato/hero-rodape-tablet.jpg);
   }
 
   .hero h2 {
@@ -130,6 +143,10 @@
   .hero .bg-blog {
     background-image: url(../img/blog/hero-tablet.jpg);
   }
+
+  .hero .bg-contato {
+    background-image: url(../img/contato/hero-tablet.jpg);
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -145,6 +162,10 @@
 
   .bottom-hero .bg-pacotes {
     background-image: url(../img/pacotes-de-viagens/rodape-hero-desktop.jpg);
+  }
+
+  .bottom-hero .bg-contato {
+    background-image: url(../img/contato/hero-rodape-desktop.jpg);
   }
 
   .hero h2 {
@@ -171,6 +192,10 @@
 
   .hero .bg-blog {
     background-image: url(../img/blog/hero-desktop.jpg);
+  }
+
+  .hero .bg-contato {
+    background-image: url(../img/contato/hero-desktop.jpg);
   }
 }
 
