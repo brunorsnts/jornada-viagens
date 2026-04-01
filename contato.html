@@ -47,22 +47,15 @@
         <nav>
           <ul class="list-links">
             <li>
-              <a href="blog.html" target="_blank" title="Acessar Blog">Blog</a>
+              <a href="blog.html" title="Acessar Blog">Blog</a>
             </li>
             <li>
-              <a
-                href="pacotes-de-viagem.html"
-                target="_blank"
-                title="Acessar Pacotes de viagem"
+              <a href="pacotes-de-viagem.html" title="Acessar Pacotes de viagem"
                 >Pacotes de viagem</a
               >
             </li>
             <li>
-              <a
-                class="active"
-                href="contato.html"
-                target="_blank"
-                title="Acessar Contato"
+              <a class="active" href="contato.html" title="Acessar Contato"
                 >Contato</a
               >
             </li>
@@ -97,6 +90,7 @@
       </p>
 
       <form action="#" method="get" class="contact-form">
+        <label for="name" class="sr-only">Seu nome</label>
         <input
           id="name"
           type="text"
@@ -105,6 +99,7 @@
           required
         />
 
+        <label for="phoneNumber" class="sr-only">Telefone</label>
         <input
           id="phoneNumber"
           type="tel"
@@ -114,6 +109,7 @@
           required
         />
 
+        <label for="email" class="sr-only">Email</label>
         <input
           id="email"
           type="email"
@@ -122,9 +118,10 @@
           required
         />
 
+        <label for="assunto" class="sr-only">Assunto</label>
         <input id="assunto" type="text" name="assunto" placeholder="Assunto" />
 
-        <label for="mensagem">Menssagem</label>
+        <label for="mensagem">Mensagem</label>
         <textarea id="mensagem" name="mensagem" rows="4"></textarea>
 
         <button type="submit" class="button">Enviar!</button>
